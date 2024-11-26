@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 
 export const ChatbotWidget: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const copilotAgent = import.meta.env.COPILOT_AGENT;
 
   return (
     <div className="fixed bottom-4 right-4 z-50">
@@ -22,7 +21,7 @@ export const ChatbotWidget: React.FC = () => {
           </div>
           <div className="flex-grow">
             <iframe
-              src={copilotAgent}
+              src="https://copilotstudio.microsoft.com/environments/Default-c44a6da6-ab56-4606-9149-209c5a468ee6/bots/cr6dc_dummyAgent/webchat?__version__=2"
               frameBorder={0}
               className="w-full h-full border-none"
               title="Chatbot"
