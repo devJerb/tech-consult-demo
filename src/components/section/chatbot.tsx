@@ -1,7 +1,5 @@
 "use client";
 
-import Method from "../../assets/box.svg";
-
 import { useEffect, useState, useRef } from "react";
 import { Box, User, Minimize2, Maximize2 } from "lucide-react";
 
