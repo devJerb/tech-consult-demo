@@ -65,3 +65,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #e5e5e5;
+  background: #2a2a2a;
+}
+
+::selection {
+  color: #e5e5e5;
+  background: #2a2a2a;
+}

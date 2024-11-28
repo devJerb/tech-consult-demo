@@ -43,7 +43,7 @@ export const CopilotAgent = () => {
 
         // Avatar Styling
         botAvatarInitials: <Box />, // Initials shown in bot's avatar
-        userAvatarImage: <User />,
+        userAvatarInitials: <User />,
         showAvatarInGroup: true, // Show avatars in group conversations
 
         // Miscellaneous UI Options
