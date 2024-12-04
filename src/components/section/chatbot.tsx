@@ -144,7 +144,7 @@ export const CopilotAgent = () => {
       <div className="bg-gray-900 text-white p-3 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Box size={20} />
-          <h1 className="text-lg font-semibold">Method Man</h1>
+          <h1 className="text-lg font-semibold">Method AI</h1>
         </div>
         <button
           onClick={() => setIsMinimized(!isMinimized)}
