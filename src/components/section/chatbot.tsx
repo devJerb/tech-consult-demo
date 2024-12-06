@@ -155,7 +155,7 @@ export const CopilotAgent = () => {
       </div>
       <div
         ref={webchatRef}
-        className={`w-[500px] ${
+        className={`w-100 ${
           isMinimized ? "h-0" : "h-[calc(32rem-3.5rem)]"
         } transition-all duration-300 ease-in-out`}
       ></div>
